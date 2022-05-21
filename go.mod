@@ -1,3 +1,3 @@
-module github.com/Pawilonek/factorio-mod-portal-golang-client
+module github.com/Pawilonek/factorio-mod-portal-client
 
-go 1.17
+go 1.18

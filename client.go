@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Pawilonek/factorio-mod-portal-golang-client/response"
+	"github.com/Pawilonek/factorio-mod-portal-client/response"
 )
 
 const urlApi = "https://mods.factorio.com"
@@ -59,7 +59,10 @@ func (c Client) List(ctx context.Context) (*response.List, error) {
 
 	decoder := json.NewDecoder(strings.NewReader(resp))
 	asdf := response.List{}
-	decoder.Decode(&asdf)
+	err = decoder.Decode(&asdf)
+	if err != nil {
+		return nil, fmt.Errorf("coudn't decode response from list, err: %s", err)
+	}
 
 	return &asdf, nil
 }
