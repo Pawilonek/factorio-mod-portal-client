@@ -16,7 +16,7 @@ const urlApi = "https://mods.factorio.com"
 const urlAssets = "https://assets-mod.factorio.com"
 
 type Config struct {
-	Timeout   int
+	Timeout   time.Duration
 	UrlApi    string
 	UrlAssets string
 }
@@ -28,7 +28,7 @@ type Client struct {
 
 func New(config Config) *Client {
 	if config.Timeout == 0 {
-		config.Timeout = int(time.Second)
+		config.Timeout = time.Second
 	}
 
 	if config.UrlApi == "" {
@@ -46,7 +46,7 @@ func New(config Config) *Client {
 }
 
 func (c Client) List(ctx context.Context) (*response.List, error) {
-	ctx, cancel := context.WithTimeout(ctx, time.Duration(c.config.Timeout))
+	ctx, cancel := context.WithTimeout(ctx, c.config.Timeout)
 	defer cancel()
 
 	url := fmt.Sprintf("%s/api/mods", c.config.UrlApi)
