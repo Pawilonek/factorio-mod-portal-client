@@ -1,0 +1,57 @@
+package main
+
+import (
+	"fmt"
+)
+
+const urlApi = "https://mods.factorio.com/api/mods"
+const urlAssets = "https://assets-mod.factorio.com"
+
+type Config struct {
+		timeout int
+		uplApi string
+		urpAssets string 
+	}
+
+type Client struct{
+	config Config
+}
+
+func New(timeout int) *Client {
+	return &Client{
+			timeout: timeout
+	}
+}
+
+func (c Client) func List(ctx ctx.Context) error
+{
+	ctx, cancel := context.WithTimeout(ctx, c.config.timeout)
+	defer cancel()
+
+	req, err := http.NewRequestWithContext(ctx, http.MethodGet, apiUrl, nil)
+	if err != nil {
+		return fmt.Errorf("coudn't initialize http request, err: %s", err)
+	}
+
+	response, err := http.DefaultClient.Do(req)
+	if err != nil {
+		panic(err)
+	}
+
+	fmt.Println(response.Status)
+	fmt.Println(response.StatusCode)
+
+	body, err := ioutil.ReadAll(response.Body)
+	defer response.Body.Close()
+	if err != nil {
+		panic(err)
+	}
+
+	decoder := json.NewDecoder(strings.NewReader(string(body)))
+	asdf := List{}
+	decoder.Decode(&asdf)
+
+
+
+
+}
