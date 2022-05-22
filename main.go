@@ -3,13 +3,15 @@ package main
 import (
 	"context"
 	"fmt"
+
+	factorio_client "github.com/Pawilonek/factorio-mod-portal-client/client"
 )
 
 func main() {
 	ctx := context.Background()
 
-	config := Config{}
-	client := New(config)
+	config := factorio_client.Config{}
+	client := factorio_client.New(&config, nil)
 
 	list, err := client.List(ctx)
 	if err != nil {

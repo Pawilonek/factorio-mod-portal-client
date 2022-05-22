@@ -1,0 +1,487 @@
+{
+   "pagination":{
+      "count":9579,
+      "page":1,
+      "page_count":384,
+      "page_size":25,
+      "links":{
+         "first":null,
+         "next":"https://mods.factorio.com/api/mods?page=2",
+         "prev":null,
+         "last":"https://mods.factorio.com/api/mods?page=384"
+      }
+   },
+   "results":[
+      {
+         "name":"---Jonnys-debug",
+         "title":"Jonnys Debug",
+         "owner":"1Jonny",
+         "summary":"\"ErrorReport Log Gui\" for Modder\r\nFactorio Start = Printet all Tables and Variables in the JoErrRep Funktion into a Gui Overlay and Stop Factorio",
+         "downloads_count":378,
+         "category":"general",
+         "score":0.3666666666666667,
+         "latest_release":{
+            "download_url":"/download/---Jonnys-debug/5ca2b94a254a20000b09bb8f",
+            "file_name":"---Jonnys-debug_0.17.0.zip",
+            "info_json":{
+               "factorio_version":"0.17"
+            },
+            "released_at":"2019-04-02T01:22:18.431000Z",
+            "version":"0.17.0",
+            "sha1":"bbd86d46a4893c416f3f7775d6abb8698feb42e7"
+         }
+      },
+      {
+         "name":"-modpack",
+         "title":"Cheater Modpack",
+         "owner":"tntmasta",
+         "summary":"Old and broken.",
+         "downloads_count":5,
+         "category":"mod-packs",
+         "score":-0.8333333333333335,
+         "latest_release":{
+            "download_url":"/download/-modpack/62544767e3e23bc4fcc9449b",
+            "file_name":"-modpack_0.0.1.zip",
+            "info_json":{
+               "factorio_version":"1.1"
+            },
+            "released_at":"2022-04-11T15:21:11.154000Z",
+            "version":"0.0.1",
+            "sha1":"1df7c33e30f41f93ffa4e5ff3729fe8a8b3d3965"
+         }
+      },
+      {
+         "name":"0-event-trace",
+         "title":"Lua API Event Trace",
+         "owner":"x2605",
+         "summary":"This is a debugging tool. This mod tracks and shows you what event ID(defines.events.\uff5e) occurs. Only admins can open GUI if it is multiplay game.\r\n- Press SHIFT+F3 to open GUI. (you can change key bindings)\r\n- Press SHIFT+F2 for quick toggle logging mode while GUI is opened.\r\n- Only works while GUI is opened.\r\nTracked logs can be saved and investigated by \"gvv\" mod. https://mods.factorio.com/mod/gvv\r\nVisit https://lua-api.factorio.com/latest/events.html to see full description of events.",
+         "downloads_count":1023,
+         "category":"info",
+         "score":-14.166666666666668,
+         "latest_release":{
+            "download_url":"/download/0-event-trace/6278d56b0cce364e95a83ccf",
+            "file_name":"0-event-trace_0.3.1.zip",
+            "info_json":{
+               "factorio_version":"1.1"
+            },
+            "released_at":"2022-05-09T08:48:43.023000Z",
+            "version":"0.3.1",
+            "sha1":"fa782a39f09d58cd7e243df81408e8534177b1eb"
+         }
+      },
+      {
+         "name":"000-Rebalanced-game",
+         "title":"Rebalanced Game",
+         "owner":"EpicSlayer7666",
+         "summary":"Totally changes the game Balance. (Why put furnaces in Science Potions when you should be putting the Potion in the Furnace? upgrade your labs instead! and Player/Enemies/Spawners have Different HP and healing rates.)",
+         "downloads_count":196,
+         "category":"balancing",
+         "score":0.3666666666666667,
+         "latest_release":{
+            "download_url":"/download/000-Rebalanced-game/5e2539f2084a49000baa7707",
+            "file_name":"000-Rebalanced-game_0.17.70.zip",
+            "info_json":{
+               "factorio_version":"0.17"
+            },
+            "released_at":"2020-01-20T05:26:10.779000Z",
+            "version":"0.17.70",
+            "sha1":"328b7cea3b8a443b5646565f9c27a377d9a4b01b"
+         }
+      },
+      {
+         "name":"015AdvancedRadar",
+         "title":"Advanced Radar for Factorio 0.15",
+         "owner":"ChurchOrganist",
+         "summary":"Port to 0.15 of Malcolm Cooks' AdvancedRadar mod. Advanced radar with greater range, speed, and power consumption.",
+         "downloads_count":3890,
+         "category":"general",
+         "score":0.3666666666666667,
+         "latest_release":{
+            "download_url":"/download/015AdvancedRadar/5a5f1ae6adcc441024d745a4",
+            "file_name":"015AdvancedRadar_0.15.1.zip",
+            "info_json":{
+               "factorio_version":"0.15"
+            },
+            "released_at":"2017-11-24T17:44:27.381000Z",
+            "version":"0.15.1",
+            "sha1":"f2b2864a4099ef97a21fb9c2de6096952e72b2f5"
+         }
+      },
+      {
+         "name":"015_like_infinite_research",
+         "title":"infinite research (0.15 like)",
+         "owner":"marshkip",
+         "summary":"add (almost) infinite research like planned in 0.15. see friday fact #161. this mod add infinite research for upgrading robots, turrets, weapons and researching speed.",
+         "downloads_count":10815,
+         "category":"weapons",
+         "score":0.3666666666666667,
+         "latest_release":{
+            "download_url":"/download/015_like_infinite_research/5a5f1ae6adcc441024d72e0e",
+            "file_name":"015_like_infinite_research_0.1.0.zip",
+            "info_json":{
+               "factorio_version":"0.14"
+            },
+            "released_at":"2016-11-11T07:07:22.473000Z",
+            "version":"0.1.0",
+            "sha1":"7529aeeba5382daa08fc6c907924eb0783119a22"
+         }
+      },
+      {
+         "name":"016-science",
+         "title":"0.16 Science Packs",
+         "owner":"SuperSandro2000",
+         "summary":"Reverts the science pack recipes back to match 0.16.",
+         "downloads_count":417,
+         "category":"balancing",
+         "score":0.3666666666666667,
+         "latest_release":{
+            "download_url":"/download/016-science/5c7bb097c3dad0000d0074ff",
+            "file_name":"016-science_0.1.1.zip",
+            "info_json":{
+               "factorio_version":"0.17"
+            },
+            "released_at":"2019-03-03T10:46:47.817000Z",
+            "version":"0.1.1",
+            "sha1":"19917402e48749dbd57122b0a91ac88937cac433"
+         }
+      },
+      {
+         "name":"017-packs-for-014",
+         "title":"0.17 science for 0.14 ( New-science addon)",
+         "owner":"voldkost",
+         "summary":"",
+         "downloads_count":149,
+         "score":0.3666666666666667,
+         "latest_release":{
+            "download_url":"/download/017-packs-for-014/5c2baf14f64c7c000c51bb30",
+            "file_name":"017-packs-for-014_0.0.2.zip",
+            "info_json":{
+               "factorio_version":"0.14"
+            },
+            "released_at":"2019-01-01T18:19:00.993000Z",
+            "version":"0.0.2",
+            "sha1":"61057f3ba6429f3e10f48de11d3f5c27c433f155"
+         }
+      },
+      {
+         "name":"017-science",
+         "title":"0.17 Science Packs",
+         "owner":"SuperSandro2000",
+         "summary":"Changes the science pack recipes to match 0.17.",
+         "downloads_count":2240,
+         "category":"balancing",
+         "score":0.3666666666666667,
+         "latest_release":{
+            "download_url":"/download/017-science/5c2e873bd593fa000d3f90f4",
+            "file_name":"017-science_0.1.8.zip",
+            "info_json":{
+               "factorio_version":"0.16"
+            },
+            "released_at":"2019-01-03T22:05:47.932000Z",
+            "version":"0.1.8",
+            "sha1":"689f8fa04a16c36514ce79983dd02447a56a2ab5"
+         }
+      },
+      {
+         "name":"017_science",
+         "title":"0.17 science conversion",
+         "owner":"morley376",
+         "summary":"# DEPRECATED AS OF 2019-03-31T22:13:01 - SUPPORT PHASE ENDED\r\nAdds in the new science pack recipes and known tech tree, while keeping 0.16 recipes intact so that the player may update their base at their own pace. Implements almost all 0.17 balance changes: transport-belt, mining, smelting changes, and more (see page for full list). Compatible with existing saves, most big mods and will support release 0.17!\r\nIMPORTANT NOTE: Version 0.1.6 of this mod is the last working version of the mod. Version 0.1.7 of the mod will be only for migrating saves to the official 0.17.",
+         "downloads_count":6409,
+         "category":"balancing",
+         "score":0.3666666666666667,
+         "latest_release":{
+            "download_url":"/download/017_science/5c716df3eadbd5000deb9064",
+            "file_name":"017_science_0.1.61.zip",
+            "info_json":{
+               "factorio_version":"0.16"
+            },
+            "released_at":"2019-02-23T15:59:47.744000Z",
+            "version":"0.1.61",
+            "sha1":"9aeae6dcbc6044f1331a77635441874dde208bbf"
+         }
+      },
+      {
+         "name":"03-long-inserters",
+         "title":"03 Longer Inserters",
+         "owner":"sokerd",
+         "summary":"3 block inserter",
+         "downloads_count":3007,
+         "category":"logistics",
+         "score":0.3666666666666667,
+         "latest_release":{
+            "download_url":"/download/03-long-inserters/5a5f1ae6adcc441024d7484c",
+            "file_name":"03-long-inserters_0.0.1.zip",
+            "info_json":{
+               "factorio_version":"0.16"
+            },
+            "released_at":"2017-12-20T15:14:41.412000Z",
+            "version":"0.0.1",
+            "sha1":"97f1b1c0d32b0f4dfd05a4dd65057ba3673ba890"
+         }
+      },
+      {
+         "name":"0FactorioExtended-Plus-Layout",
+         "title":"FactorioExtended Plus-Layout",
+         "owner":"billbo99",
+         "summary":"Moves all the FE+ crafting recipes into the main 4x tabs",
+         "downloads_count":4435,
+         "category":"non-game-changing",
+         "score":-13.866666666666664,
+         "latest_release":{
+            "download_url":"/download/0FactorioExtended-Plus-Layout/60d0cfb00b25a25488f680a5",
+            "file_name":"0FactorioExtended-Plus-Layout_1.1.2.zip",
+            "info_json":{
+               "factorio_version":"1.1"
+            },
+            "released_at":"2021-06-21T17:43:12.763000Z",
+            "version":"1.1.2",
+            "sha1":"1e4611db96b2d181163efc44845af431812d388a"
+         }
+      },
+      {
+         "name":"0ULogger",
+         "title":"Switchable logger",
+         "owner":"ZwerOxotnik",
+         "summary":"Very simple switchable logger for writing data from events into script-output\\0ULogger_data.log (works on servers only)",
+         "downloads_count":15,
+         "category":"utility",
+         "score":0.3666666666666668,
+         "latest_release":{
+            "download_url":"/download/0ULogger/61fb98df4714d5885d4a4e19",
+            "file_name":"0ULogger_0.1.0.zip",
+            "info_json":{
+               "factorio_version":"1.1"
+            },
+            "released_at":"2022-02-03T08:57:03.118000Z",
+            "version":"0.1.0",
+            "sha1":"3b950d8ab66052888a1f7f8674004e5f35feb56c"
+         }
+      },
+      {
+         "name":"0_16_graphics",
+         "title":"0.16 Graphics",
+         "owner":"OwnlyMe",
+         "summary":"Changes graphics back to their 0.16 versions.\r\nAvailable Modules: Enemies, Enemy Spawners, Trees, Chests, Logistic Chests, Laser Towers, Laser attacks, Spitter attacks, Worm attacks",
+         "downloads_count":635,
+         "category":"non-game-changing",
+         "score":0.3666666666666667,
+         "latest_release":{
+            "download_url":"/download/0_16_graphics/5e377c4f9c510d000cf18e68",
+            "file_name":"0_16_graphics_0.18.4.zip",
+            "info_json":{
+               "factorio_version":"0.18"
+            },
+            "released_at":"2020-02-03T01:50:07.753000Z",
+            "version":"0.18.4",
+            "sha1":"d636675c22f772a3e7ded245a16ff2bf2618e99e"
+         }
+      },
+      {
+         "name":"0_16_graphics_revived",
+         "title":"0.16 Graphics UPDATED TO 1.1",
+         "owner":"tijon23",
+         "summary":"UPDATED FOR 1.1, I DO NOT OWN THIS. Changes graphics back to their 0.16 versions. Available Modules: Enemies, Enemy spawners, Trees, Chests, Logistic Chests, Laser towers, Laser attacks, Spitter attacks, Worm attacks",
+         "downloads_count":290,
+         "category":"non-game-changing",
+         "score":0.6000000000000003,
+         "latest_release":{
+            "download_url":"/download/0_16_graphics_revived/604f3250ea8eb973d7730cc0",
+            "file_name":"0_16_graphics_revived_1.1.3.zip",
+            "info_json":{
+               "factorio_version":"1.1"
+            },
+            "released_at":"2021-03-15T10:09:20.019000Z",
+            "version":"1.1.3",
+            "sha1":"a427f7210acb51ef95b5345353bf9b1d304e8d96"
+         }
+      },
+      {
+         "name":"0_vlads_compat",
+         "title":"vlads 0.15 compatibility",
+         "owner":"wvlad",
+         "summary":"Gui compatibility mod to simplify migration from 0.15",
+         "downloads_count":370,
+         "category":"helper-mods",
+         "score":0.3666666666666667,
+         "latest_release":{
+            "download_url":"/download/0_vlads_compat/5a7666bf47619e000bb6c121",
+            "file_name":"0_vlads_compat_1.0.0.zip",
+            "info_json":{
+               "factorio_version":"0.16"
+            },
+            "released_at":"2018-02-04T01:49:51.525000Z",
+            "version":"1.0.0",
+            "sha1":"cb43c505c9ac7d228f82d8a93e25f2200553aa90"
+         }
+      },
+      {
+         "name":"1000BagSize",
+         "title":"1000 Inventory Size",
+         "owner":"szojusz",
+         "summary":"Increase the player bag size.",
+         "downloads_count":4113,
+         "category":"storage",
+         "score":0.3666666666666667,
+         "latest_release":{
+            "download_url":"/download/1000BagSize/5cf18d3bc6cc70000c7fad41",
+            "file_name":"1000BagSize_0.1.0.zip",
+            "info_json":{
+               "factorio_version":"0.17.45"
+            },
+            "released_at":"2019-05-31T20:23:23.951000Z",
+            "version":"0.1.0",
+            "sha1":"2669b3799cea4d6f93ee7a3a3c0cc70044b562c0"
+         }
+      },
+      {
+         "name":"1000_sounds",
+         "title":"1000 Sounds to die for",
+         "owner":"Wyrrrd",
+         "summary":"DEPRECATED\r\n\r\nGo back to the original mod, it is now updated.",
+         "downloads_count":289,
+         "category":"non-game-changing",
+         "score":0.3666666666666667,
+         "latest_release":{
+            "download_url":"/download/1000_sounds/5e4d0c39008123000bf0ad92",
+            "file_name":"1000_sounds_0.18.0.zip",
+            "info_json":{
+               "factorio_version":"0.18"
+            },
+            "released_at":"2020-02-19T10:21:45.748000Z",
+            "version":"0.18.0",
+            "sha1":"32afe4ed72763c54f7ddbd910f24c2eb0058d8fd"
+         }
+      },
+      {
+         "name":"1000sounds",
+         "title":"1000 Sounds to die for",
+         "owner":"vralfy",
+         "summary":"Plays a different sound, on players death .. based on TrainHorn by Benjamin Lee",
+         "downloads_count":5811,
+         "category":"non-game-changing",
+         "score":-0.43333333333333346,
+         "latest_release":{
+            "download_url":"/download/1000sounds/5ff72d1416a96a67a49aa3c9",
+            "file_name":"1000sounds_0.1.12.zip",
+            "info_json":{
+               "factorio_version":"1.1"
+            },
+            "released_at":"2021-01-07T15:47:32.502000Z",
+            "version":"0.1.12",
+            "sha1":"071c9d9937b475b487b2289f1ecdabb858e6f7a3"
+         }
+      },
+      {
+         "name":"1000xLab",
+         "title":"1000x Lab",
+         "owner":"Sicksouleaters",
+         "summary":"A lab that process science 1000x faster.",
+         "downloads_count":32,
+         "score":0.30000000000000004,
+         "latest_release":{
+            "download_url":"/download/1000xLab/5ea0489ec60fdc000c490d2c",
+            "file_name":"1000xLab_0.0.2.zip",
+            "info_json":{
+               "factorio_version":"0.17"
+            },
+            "released_at":"2020-04-22T13:37:34.628000Z",
+            "version":"0.0.2",
+            "sha1":"f7b1e8def4daf83a580f0d43e71118b3deac25a3"
+         }
+      },
+      {
+         "name":"10xHarder",
+         "title":"10x Harder",
+         "owner":"withers",
+         "summary":"Makes the game 10x harder and more.",
+         "downloads_count":2468,
+         "category":"balancing",
+         "score":0.3666666666666667,
+         "latest_release":{
+            "download_url":"/download/10xHarder/5a5f1ae6adcc441024d74546",
+            "file_name":"10xHarder_1.1.4.zip",
+            "info_json":{
+               "factorio_version":"0.15"
+            },
+            "released_at":"2017-10-01T18:54:58.803000Z",
+            "version":"1.1.4",
+            "sha1":"624370ea9a5aad67a8c657db90c31935f5c8a4f4"
+         }
+      },
+      {
+         "name":"112233",
+         "title":"112233",
+         "owner":"Myszonos",
+         "summary":"Adds various energy production buildings.",
+         "downloads_count":25,
+         "score":0,
+         "latest_release":{
+            "download_url":"/download/112233/627eb1b23fdaf077bae71a2b",
+            "file_name":"112233_0.2.3.zip",
+            "info_json":{
+               "factorio_version":"1.1"
+            },
+            "released_at":"2022-05-13T19:29:54.774000Z",
+            "version":"0.2.3",
+            "sha1":"d1b6bfd9dc58c2c076d09290a01e53475156d094"
+         }
+      },
+      {
+         "name":"11xHarder",
+         "title":"11x Harder",
+         "owner":"obnauticus",
+         "summary":"Makes the game 10x harder and more.",
+         "downloads_count":311,
+         "score":0.3666666666666667,
+         "latest_release":{
+            "download_url":"/download/11xHarder/5a5f1ae6adcc441024d73583",
+            "file_name":"11xHarder_1.0.7.zip",
+            "info_json":{
+               "factorio_version":"0.14"
+            },
+            "released_at":"2017-03-26T09:51:12.506000Z",
+            "version":"1.0.7",
+            "sha1":"62b016b8745c6367b0a95c185ce8a0c01925304a"
+         }
+      },
+      {
+         "name":"120U-235",
+         "title":"Start with 120 U-235",
+         "owner":"mman0385",
+         "summary":"Start with 120 U-235 so you can have a greedy Kovarex enrichment process.",
+         "downloads_count":1284,
+         "category":"cheats",
+         "score":-3.3000000000000016,
+         "latest_release":{
+            "download_url":"/download/120U-235/621ec4ac6ae8ecc72d2a1dbb",
+            "file_name":"120U-235_0.0.5.zip",
+            "info_json":{
+               "factorio_version":"1.1"
+            },
+            "released_at":"2022-03-02T01:13:16.444000Z",
+            "version":"0.0.5",
+            "sha1":"b3af6254be3c96ebc3a971824f56ba06689a717c"
+         }
+      },
+      {
+         "name":"123lib",
+         "title":"123lib",
+         "owner":"patyak",
+         "summary":"This mod is the library for",
+         "downloads_count":12,
+         "category":"libraries",
+         "score":0.3666666666666667,
+         "latest_release":{
+            "download_url":"/download/123lib/6152bd7a8a538f2f88d2c816",
+            "file_name":"123lib_1.1.0093.zip",
+            "info_json":{
+               "factorio_version":"1.1"
+            },
+            "released_at":"2021-09-28T07:00:10.739000Z",
+            "version":"1.1.0093",
+            "sha1":"04db686208707061887ce2572c75f2d76839df57"
+         }
+      }
+   ]
+}

@@ -1,0 +1,487 @@
+{
+   "pagination":{
+      "count":9579,
+      "page":2,
+      "page_count":384,
+      "page_size":25,
+      "links":{
+         "first":"https://mods.factorio.com/api/mods",
+         "next":"https://mods.factorio.com/api/mods?page=3",
+         "prev":"https://mods.factorio.com/api/mods",
+         "last":"https://mods.factorio.com/api/mods?page=384"
+      }
+   },
+   "results":[
+      {
+         "name":"12xHarder",
+         "title":"11x Harder",
+         "owner":"obnauticus",
+         "summary":"Makes the game 10x harder and more.",
+         "downloads_count":353,
+         "score":0.3666666666666667,
+         "latest_release":{
+            "download_url":"/download/12xHarder/5a5f1ae6adcc441024d7276b",
+            "file_name":"12xHarder_1.0.7.zip",
+            "info_json":{
+               "factorio_version":"0.14"
+            },
+            "released_at":"2017-03-26T09:54:32.953000Z",
+            "version":"1.0.7",
+            "sha1":"c2f7c7442b9102300653b1dd21f6fc931275af1f"
+         }
+      },
+      {
+         "name":"16k-mini-factory",
+         "title":"16K Mini Factory (128x128 Scenario Map)",
+         "owner":"ief015",
+         "summary":"Build a great factory within the tiny space (128x128) given to you. Resources are limited in size, but yields are virtually infinite (except trees). Try to squeeze as much science out of them!",
+         "downloads_count":2039,
+         "category":"scenarios",
+         "score":-4.500000000000003,
+         "latest_release":{
+            "download_url":"/download/16k-mini-factory/61cc03820a6f77742f4411c3",
+            "file_name":"16k-mini-factory_1.0.2.zip",
+            "info_json":{
+               "factorio_version":"1.1"
+            },
+            "released_at":"2021-12-29T06:43:14.670000Z",
+            "version":"1.0.2",
+            "sha1":"5be7d690de027ba8f255347cde202dfe158a7091"
+         }
+      },
+      {
+         "name":"17mod_cn",
+         "title":"\u5220\u9664",
+         "owner":"deleted_5a85255a37f6",
+         "summary":"",
+         "downloads_count":37,
+         "score":0.3666666666666667,
+         "latest_release":{
+            "download_url":"/download/17mod_cn/5ffb02a28f687d16999dff0f",
+            "file_name":"17mod_cn_0.1.0.zip",
+            "info_json":{
+               "factorio_version":"1.1"
+            },
+            "released_at":"2021-01-10T13:35:30.813000Z",
+            "version":"0.1.0",
+            "sha1":"df951618918dd73622399b8951f102e4ed0c1b2e"
+         }
+      },
+      {
+         "name":"1812-Artillery",
+         "title":"1812 Artillery",
+         "owner":"SwankyPants132135",
+         "summary":"This mod adds Tchaikovsky's 1812 Overture to artillery cannons. Best used with Big Bertha.",
+         "downloads_count":691,
+         "category":"non-game-changing",
+         "score":-0.3333333333333336,
+         "latest_release":{
+            "download_url":"/download/1812-Artillery/6020a134fd6b223ade6dcbd8",
+            "file_name":"1812-Artillery_0.1.2.zip",
+            "info_json":{
+               "factorio_version":"1.1"
+            },
+            "released_at":"2021-02-08T02:25:56.393000Z",
+            "version":"0.1.2",
+            "sha1":"6fb08c2f71b492d6a32f819b741f926bb9ca37e5"
+         }
+      },
+      {
+         "name":"1KTurret",
+         "title":"1K Bullets Turret",
+         "owner":"DellAquila",
+         "summary":"When you put the turret on the ground, it comes with 1K bullets. Now works on any modded Ammo Turret too, like bob warfare. You can choose to enable:  Reload all your turrets with one-click.",
+         "downloads_count":21288,
+         "category":"cheats",
+         "score":13.26666666666667,
+         "latest_release":{
+            "download_url":"/download/1KTurret/5fc8cd2edf0ffb12c5d1707a",
+            "file_name":"1KTurret_0.0.16.zip",
+            "info_json":{
+               "factorio_version":"1.1"
+            },
+            "released_at":"2020-12-03T11:34:06.058000Z",
+            "version":"0.0.16",
+            "sha1":"b1dbef4a9238c5417edad27bb44291159dbf2729"
+         }
+      },
+      {
+         "name":"1MyownMod",
+         "title":"1My Own Shitty Cheaty Mod xd",
+         "owner":"Alexander3a",
+         "summary":"Dont know",
+         "downloads_count":201,
+         "category":"cheats",
+         "score":0.3666666666666667,
+         "latest_release":{
+            "download_url":"/download/1MyownMod/5cbb54f65862c4000cafb1a2",
+            "file_name":"1MyownMod_0.1.4.zip",
+            "info_json":{
+               "factorio_version":"0.17"
+            },
+            "released_at":"2019-04-20T17:20:54.449000Z",
+            "version":"0.1.4",
+            "sha1":"b9b2167b8dad2aad4943bc49d89acdbbcdd6a70f"
+         }
+      },
+      {
+         "name":"1rpmSilo",
+         "title":"1rpm Silo",
+         "owner":"Ober3550",
+         "summary":"Makes Fully Beaconed Silos produce 1rpm",
+         "downloads_count":91,
+         "category":"balancing",
+         "score":0.3666666666666667,
+         "latest_release":{
+            "download_url":"/download/1rpmSilo/5d4e0e3c5ea028000d513f65",
+            "file_name":"1rpmSilo_0.17.0.zip",
+            "info_json":{
+               "factorio_version":"0.17"
+            },
+            "released_at":"2019-08-10T00:22:20.917000Z",
+            "version":"0.17.0",
+            "sha1":"c08a758a8ae55dcfc6ac55cec652c46d62899623"
+         }
+      },
+      {
+         "name":"1stone1brick",
+         "title":"1stone1brick",
+         "owner":"meifray",
+         "summary":"make stone to brick is 1 to 1,just like other ore",
+         "downloads_count":320,
+         "category":"balancing",
+         "score":-1.033333333333334,
+         "latest_release":{
+            "download_url":"/download/1stone1brick/613d787d1ce2b0d42158b983",
+            "file_name":"1stone1brick_0.0.0.zip",
+            "info_json":{
+               "factorio_version":"1.1"
+            },
+            "released_at":"2021-09-12T03:48:13.596000Z",
+            "version":"0.0.0",
+            "sha1":"89ffe404a7cee0631814891e8918b3606b12abb5"
+         }
+      },
+      {
+         "name":"1tank100fish",
+         "title":"1 Tank 100 Fish",
+         "owner":"LuziferSenpai",
+         "summary":"This MOD is a joke to the FFF-187, where they sayed: Of course we also added support for mods, so you can define what do you get from sending a rocket, and depending on what you put in the rocket - say, if you put a tank into the rocket, you receive 100 raw fish, because that would make perfect sense.",
+         "downloads_count":3060,
+         "category":"general",
+         "score":-0.09999999999999953,
+         "latest_release":{
+            "download_url":"/download/1tank100fish/5fbd5ce9f6658f34bf779db0",
+            "file_name":"1tank100fish_1.0.0.zip",
+            "info_json":{
+               "factorio_version":"1.1"
+            },
+            "released_at":"2020-11-24T19:20:09.072000Z",
+            "version":"1.0.0",
+            "sha1":"29e741cfb4a03390c817a9c1a580eb444ad438ff"
+         }
+      },
+      {
+         "name":"1x1_Equipment",
+         "title":"1x1 Equipment",
+         "owner":"Gladiador",
+         "summary":"Makes equipment 1x1",
+         "downloads_count":4820,
+         "category":"armor",
+         "score":12.099999999999994,
+         "latest_release":{
+            "download_url":"/download/1x1_Equipment/6099a7d73ede8068773a3b00",
+            "file_name":"1x1_Equipment_1.1.0.zip",
+            "info_json":{
+               "factorio_version":"1.1"
+            },
+            "released_at":"2021-05-10T21:38:31.519000Z",
+            "version":"1.1.0",
+            "sha1":"f35ec09593d699c0e045c1b0572a17c7b38ef063"
+         }
+      },
+      {
+         "name":"200 Inventory Size",
+         "title":"200 Inventory size",
+         "owner":"black_dragon23",
+         "summary":"Increase the player's main inventory size.",
+         "downloads_count":83498,
+         "category":"storage",
+         "score":53.93333333333336,
+         "latest_release":{
+            "download_url":"/download/200%20Inventory%20Size/5fbd69033f24f8914dd42e67",
+            "file_name":"200 Inventory Size_1.1.0.zip",
+            "info_json":{
+               "factorio_version":"1.1"
+            },
+            "released_at":"2020-11-24T20:11:47.491000Z",
+            "version":"1.1.0",
+            "sha1":"2e7b4582b25ea5efb0e4c2917e9e7fba16be398d"
+         }
+      },
+      {
+         "name":"2000BagSize",
+         "title":"2000 Inventory Size",
+         "owner":"rascaldi",
+         "summary":"Increase the player bag size.",
+         "downloads_count":36,
+         "category":"storage",
+         "score":0.3666666666666667,
+         "latest_release":{
+            "download_url":"/download/2000BagSize/5ccd9689a60e02000b07eb45",
+            "file_name":"2000BagSize_0.0.1.zip",
+            "info_json":{
+               "factorio_version":"0.17.35"
+            },
+            "released_at":"2019-05-04T13:41:29.643000Z",
+            "version":"0.0.1",
+            "sha1":"bb3de462afad4391ff18f4b112c6ce5fe65f0116"
+         }
+      },
+      {
+         "name":"2013-car",
+         "title":"2013 Car",
+         "owner":"Farrel12469",
+         "summary":"Replaces the car graphics with the one from the Factorio 2013 trailer.",
+         "downloads_count":173,
+         "category":"non-game-changing",
+         "score":0.3666666666666667,
+         "latest_release":{
+            "download_url":"/download/2013-car/5e281cd1337c1e000d544085",
+            "file_name":"2013-car_0.0.3.zip",
+            "info_json":{
+               "factorio_version":"0.18"
+            },
+            "released_at":"2020-01-22T09:58:41.241000Z",
+            "version":"0.0.3",
+            "sha1":"75a64ac2424cf2cf44bdfebb36e8ee820a091242"
+         }
+      },
+      {
+         "name":"2020-mod",
+         "title":"2020 mod",
+         "owner":"Gladiador",
+         "summary":"Este mod tem stacks de um total de (X) vezes (50) de alguns itens, inventario aumentado, robos atomicos e equipamento minusculo para armadura.",
+         "downloads_count":156,
+         "category":"armor",
+         "score":-0.033333333333333326,
+         "latest_release":{
+            "download_url":"/download/2020-mod/6099a3878a46ff94825c7428",
+            "file_name":"2020-mod_0.1.0.zip",
+            "info_json":{
+               "factorio_version":"1.1"
+            },
+            "released_at":"2021-05-10T21:20:07.786000Z",
+            "version":"0.1.0",
+            "sha1":"b54e6314b7a4bfbaf80599c261ff7a92d3846a9f"
+         }
+      },
+      {
+         "name":"20x20ArmorMK2",
+         "title":"20x20 Slots on Power Armor MK2",
+         "owner":"Neonit",
+         "summary":"This mod extends the slots on power armor, from 10x10 to 20x20.",
+         "downloads_count":7154,
+         "score":1.0,
+         "latest_release":{
+            "download_url":"/download/20x20ArmorMK2/5a5f1ae6adcc441024d7390e",
+            "file_name":"20x20ArmorMK2_0.0.3.zip",
+            "info_json":{
+               "factorio_version":"0.13"
+            },
+            "released_at":"2016-07-07T04:38:11.072000Z",
+            "version":"0.0.3",
+            "sha1":"3c77fec8f09e221762ad405b0a39fcf8437cd313"
+         }
+      },
+      {
+         "name":"248k",
+         "title":"248k Mod",
+         "owner":"PreLeyZero",
+         "summary":"Advance through 4 stages of tech. Start with simple machines and work your way through nuclear fission and fusion up to black and white holes, in order to tame the 248k Element. This mod is designed to be playable in already existing worlds since it changes nothing on world generation. Can be played as a standalone mod or in overhaul mode. Does include a booktorio and Informatron ingame wiki!\r\n\r\n",
+         "downloads_count":36443,
+         "category":"big-mods",
+         "score":-430.9666666666668,
+         "latest_release":{
+            "download_url":"/download/248k/62891c6a65648a8be121ea41",
+            "file_name":"248k_1.0.23.zip",
+            "info_json":{
+               "factorio_version":"1.1"
+            },
+            "released_at":"2022-05-21T17:07:54.912000Z",
+            "version":"1.0.23",
+            "sha1":"6b3370be1e6c12aa3e07059f7ac967af25e9a108"
+         }
+      },
+      {
+         "name":"248k-easy-dirty-water",
+         "title":"248k Easy Dirty Water",
+         "owner":"Grandexar",
+         "summary":"Are you tired of only getting dirty water from actually creating purified ore? Now create it with just rocks and water! Requires 248k mod.",
+         "downloads_count":196,
+         "category":"balancing",
+         "score":25.16666666666667,
+         "latest_release":{
+            "download_url":"/download/248k-easy-dirty-water/6264677ebdce7d6e5b25cd73",
+            "file_name":"248k-easy-dirty-water_1.0.0.zip",
+            "info_json":{
+               "factorio_version":"1.1"
+            },
+            "released_at":"2022-04-23T20:54:22.938000Z",
+            "version":"1.0.0",
+            "sha1":"73c92ddff0e6fdb4d69dc89d7ed8c04e795aba88"
+         }
+      },
+      {
+         "name":"248kTbaAB",
+         "title":"248k Touched by an AngelBob",
+         "owner":"SuperSandro2000",
+         "summary":"[WIP] This mod adds some compatibility between 248k and AngelBobs.",
+         "downloads_count":496,
+         "category":"balancing",
+         "score":-0.5666666666666673,
+         "latest_release":{
+            "download_url":"/download/248kTbaAB/5fe5fea6de09b8e0db01633d",
+            "file_name":"248kTbaAB_0.0.2.zip",
+            "info_json":{
+               "factorio_version":"1.1"
+            },
+            "released_at":"2020-12-25T15:00:54.271000Z",
+            "version":"0.0.2",
+            "sha1":"282b3b9c15f7692a40732f7936aa9882e7fd80fd"
+         }
+      },
+      {
+         "name":"248k_n_RealisticReactors_korean1",
+         "title":"Realistic Reactors\uc758 \ud55c\uae00 \ubc88\uc5ed",
+         "owner":"x2605",
+         "summary":"IngoKnieto\uc758 Realistic Reactors \ubaa8\ub4dc\uc758 \ud55c\uae00\ud654/\ud55c\uad6d\uc5b4 \ubaa8\ub4dc\uc785\ub2c8\ub2e4.\r\nKorean translation mod. To original modders: It's okay to copy locale files to original mods without confirm.",
+         "downloads_count":57,
+         "category":"non-game-changing",
+         "score":-16.633333333333333,
+         "latest_release":{
+            "download_url":"/download/248k_n_RealisticReactors_korean1/62530b19cbc31b1746a56404",
+            "file_name":"248k_n_RealisticReactors_korean1_0.0.6.zip",
+            "info_json":{
+               "factorio_version":"1.1"
+            },
+            "released_at":"2022-04-10T16:51:37.896000Z",
+            "version":"0.0.6",
+            "sha1":"322a8c633dd8f1c02db661f3f00c0b941fd4e435"
+         }
+      },
+      {
+         "name":"248kja",
+         "title":"248k-JapaneseMOD",
+         "owner":"Kyon1207",
+         "summary":"248kMod\u306e\u65e5\u672c\u8a9e\u5316Mod\u3067\u3059\u3002",
+         "downloads_count":68,
+         "category":"non-game-changing",
+         "score":-0.20000000000000007,
+         "latest_release":{
+            "download_url":"/download/248kja/61e7df1ca416c8f77544a682",
+            "file_name":"248kja_0.0.2.zip",
+            "info_json":{
+               "factorio_version":"1.1"
+            },
+            "released_at":"2022-01-19T09:51:24.373000Z",
+            "version":"0.0.2",
+            "sha1":"8862b78ccefd4560212067e8f57f1795b34622aa"
+         }
+      },
+      {
+         "name":"2x2-Chest",
+         "title":"2x2 Chest",
+         "owner":"blauball",
+         "summary":"Adds a 2x2 Chest with 96 slots.",
+         "downloads_count":5626,
+         "category":"storage",
+         "score":2.533333333333333,
+         "latest_release":{
+            "download_url":"/download/2x2-Chest/608e65d3be1ea3d7ab1291fd",
+            "file_name":"2x2-Chest_0.1.2.zip",
+            "info_json":{
+               "factorio_version":"1.1"
+            },
+            "released_at":"2021-05-02T08:41:55.432000Z",
+            "version":"0.1.2",
+            "sha1":"4253b5b0e80110b02b6810c403ae224d3acfa893"
+         }
+      },
+      {
+         "name":"2xCraftingSpeed",
+         "title":".",
+         "owner":"qwertycze",
+         "summary":"THIS MOD HAS BEEN REMOVED!",
+         "downloads_count":173,
+         "category":"utility",
+         "score":0.3666666666666667,
+         "latest_release":{
+            "download_url":"/download/2xCraftingSpeed/5a9c24fce80fe3000eb8e2a6",
+            "file_name":"2xCraftingSpeed_0.0.1.zip",
+            "info_json":{
+               "factorio_version":"0.15"
+            },
+            "released_at":"2018-03-04T16:55:24.716000Z",
+            "version":"0.0.1",
+            "sha1":"91f5eaee943bb799249a76e40c6c5802b6eb0149"
+         }
+      },
+      {
+         "name":"2xspeed-mod",
+         "title":"Speed Mod",
+         "owner":"Hapy1",
+         "summary":"Double the speed of you world -can toggle",
+         "downloads_count":238,
+         "category":"cheats",
+         "score":-1.0333333333333334,
+         "latest_release":{
+            "download_url":"/download/2xspeed-mod/617281807396866a395438e9",
+            "file_name":"2xspeed-mod_0.0.2.zip",
+            "info_json":{
+               "factorio_version":"1.1"
+            },
+            "released_at":"2021-10-22T09:16:48.153000Z",
+            "version":"0.0.2",
+            "sha1":"3a7f7c62808a629d7c8043a6528233907fa4656b"
+         }
+      },
+      {
+         "name":"30 Extra Logistic Slots",
+         "title":"30 Extra Logistic Slots",
+         "owner":"Sabby43",
+         "summary":"adds extra logistic slots",
+         "downloads_count":1582,
+         "category":"logistics",
+         "score":0.3666666666666667,
+         "latest_release":{
+            "download_url":"/download/30%20Extra%20Logistic%20Slots/5a5f1ae6adcc441024d73b8a",
+            "file_name":"30 Extra Logistic Slots_0.0.1.zip",
+            "info_json":{
+               "factorio_version":"0.15"
+            },
+            "released_at":"2017-06-08T17:48:26.249000Z",
+            "version":"0.0.1",
+            "sha1":"e363fa96f0a811dfe1366d550e68e2d63a8e043d"
+         }
+      },
+      {
+         "name":"3Ra-AngelBobsPack",
+         "title":"3Ra's Bob's and Angel's Mod Pack",
+         "owner":"Articulating",
+         "summary":"3Ra Gaming's collection of Bob and Angel's mods, compiled for easy toggling and sharing.",
+         "downloads_count":10293,
+         "score":0.6333333333333334,
+         "latest_release":{
+            "download_url":"/download/3Ra-AngelBobsPack/5a5f1ae6adcc441024d73cf0",
+            "file_name":"3Ra-AngelBobsPack_0.0.2.zip",
+            "info_json":{
+               "factorio_version":"0.14"
+            },
+            "released_at":"2017-01-05T08:48:51.801000Z",
+            "version":"0.0.2",
+            "sha1":"9fc5001d05e7a6a1e094c94c9d40559f3bb71584"
+         }
+      }
+   ]
+}

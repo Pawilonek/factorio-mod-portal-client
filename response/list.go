@@ -4,6 +4,7 @@ import (
 	"time"
 )
 
+// Pagination links
 type Links struct {
 	// URL to the first page of the results, or null if you're already on the first page.
 	First string `json:"first"`
@@ -15,6 +16,7 @@ type Links struct {
 	Last string `json:"last"`
 }
 
+// Pagination
 type Pagination struct {
 	// Total number of mods that match your specified filters.
 	Count int `json:"count"`
@@ -28,10 +30,12 @@ type Pagination struct {
 	Links Links `json:"links"`
 }
 
+// A copy of the mod's info.json file, only contains factorio_version in short version
 type InfoJsonShort struct {
 	FactorioVersion string `json:"factorio_version"`
 }
 
+// Info about latests release
 type LatestRelease struct {
 	// Path to download for a mod. starts with "/download" and does not include a full url
 	DownloadUrl string `json:"download_url"`
@@ -47,6 +51,7 @@ type LatestRelease struct {
 	Sha1 string `json:"sha1"`
 }
 
+// Result Entry on the mod list
 type ModList struct {
 	// The mod's machine-readable ID string.
 	Name string `json:"name"`
@@ -57,7 +62,7 @@ type ModList struct {
 	// A shorter mod description.
 	Summary string `json:"summary"`
 	// Number of downloads.
-	DownloadCount int `json:"download_count"`
+	DownloadsCount int `json:"downloads_count"`
 	// A single tag describing the mod.
 	Category string `json:"category"`
 	// todo: not described on wiki
@@ -66,6 +71,7 @@ type ModList struct {
 	LatestRelease LatestRelease `json:"latest_release"`
 }
 
+// Mod List Response
 type List struct {
 	// Pagination
 	Pagination Pagination `json:"pagination"`
