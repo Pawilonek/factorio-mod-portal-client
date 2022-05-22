@@ -19,7 +19,7 @@ func main() {
 	}
 
 	for _, mod := range list.Results {
-		fmt.Println("name:", mod.Name, "title:", mod.Title, "owner:", mod.Owner, "summary:", mod.Summary, "download count:", mod.DownloadCount, "category:", mod.Category, "score:", mod.Score)
+		fmt.Println("name:", mod.Name, "title:", mod.Title, "owner:", mod.Owner, "summary:", mod.Summary, "download count:", mod.DownloadsCount, "category:", mod.Category, "score:", mod.Score)
 	}
 
 	fmt.Println(list.Pagination.Count)
