@@ -7,6 +7,7 @@ import (
 
 	factorio_client "github.com/Pawilonek/factorio-mod-portal-client/client"
 	"github.com/Pawilonek/factorio-mod-portal-client/http"
+	"github.com/Pawilonek/factorio-mod-portal-client/request"
 )
 
 func TestMappedValues(t *testing.T) {
@@ -15,7 +16,7 @@ func TestMappedValues(t *testing.T) {
 	mockedClient := &http.MockedClient{}
 	client := factorio_client.New(nil, mockedClient)
 
-	response, err := client.List(ctx)
+	response, err := client.List(ctx, nil)
 	if err != nil {
 		t.Fatalf("List should not return an error, %s", err)
 	}
@@ -45,5 +46,30 @@ func TestMappedValues(t *testing.T) {
 	expectedCount := 9579
 	if response.Pagination.Count != expectedCount {
 		t.Fatalf("Expected value %d, but got: %d", expectedCount, response.Pagination.Count)
+	}
+}
+
+func TestGettingTheSecondPage(t *testing.T) {
+	ctx := context.TODO()
+
+	mockedClient := &http.MockedClient{}
+	client := factorio_client.New(nil, mockedClient)
+
+	response, err := client.List(ctx, &request.ListParams{
+		Page: 2,
+	})
+
+	if err != nil {
+		t.Fatalf("List should not return an error, %s", err)
+	}
+
+	expectedPage := 2
+	if response.Pagination.Page != expectedPage {
+		t.Fatalf("Expected value %d, but got: %d", expectedPage, response.Pagination.Page)
+	}
+
+	expectedName := "30 Extra Logistic Slots"
+	if response.Results[23].Name != expectedName {
+		t.Fatalf("Expected value %s, but got: %s", expectedName, response.Results[23].Name)
 	}
 }

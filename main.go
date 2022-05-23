@@ -5,6 +5,7 @@ import (
 	"fmt"
 
 	factorio_client "github.com/Pawilonek/factorio-mod-portal-client/client"
+	"github.com/Pawilonek/factorio-mod-portal-client/request"
 )
 
 func main() {
@@ -13,7 +14,19 @@ func main() {
 	config := factorio_client.Config{}
 	client := factorio_client.New(&config, nil)
 
-	list, err := client.List(ctx)
+	list, err := client.List(ctx, &request.ListParams{
+		Page:           1,
+		PageSize:       2,
+		HideDeprecated: true,
+		Sort:           request.SortUpdatedAt,
+		SortOrder:      request.SortOrderDesc,
+		Version:        "1.1",
+		Namelist: []string{
+			"Atomic_Overhaul",
+			"factoryplanner",
+		},
+	})
+
 	if err != nil {
 		panic(err)
 	}
