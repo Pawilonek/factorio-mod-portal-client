@@ -12,9 +12,13 @@ var apiMods string
 //go:embed mocked_responses/api_mods_page_2.json
 var apiModsPage2 string
 
+//go:embed mocked_responses/api_mods_krastorio2.json
+var apiModsKrastorio string
+
 var mockedPages = map[string]string{
-	"https://mods.factorio.com/api/mods":        apiMods,
-	"https://mods.factorio.com/api/mods?page=2": apiModsPage2,
+	"https://mods.factorio.com/api/mods":            apiMods,
+	"https://mods.factorio.com/api/mods?page=2":     apiModsPage2,
+	"https://mods.factorio.com/api/mods/Krastorio2": apiModsKrastorio,
 }
 
 type MockedClient struct {

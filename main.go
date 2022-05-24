@@ -31,16 +31,20 @@ func main() {
 		panic(err)
 	}
 
-	for _, mod := range list.Results {
+	fmt.Println("::::: List")
+
+	for key, mod := range list.Results {
+		fmt.Println("::::: List:", key)
 		fmt.Println("name:", mod.Name, "title:", mod.Title, "owner:", mod.Owner, "summary:", mod.Summary, "download count:", mod.DownloadsCount, "category:", mod.Category, "score:", mod.Score)
 	}
 
-	fmt.Println(list.Pagination.Count)
-	fmt.Println(list.Pagination.Links.First)
-	fmt.Println(list.Pagination.Links.Next)
-	fmt.Println(list.Pagination.Links.Last)
-	fmt.Println(list.Pagination.Links.Prev)
-	fmt.Println(list.Pagination.Page)
-	fmt.Println(list.Pagination.PageCount)
-	fmt.Println(list.Pagination.PageSize)
+	fmt.Println("::::: Get")
+
+	mod, err := client.Get(ctx, "Krastorio2")
+	if err != nil {
+		panic(err)
+	}
+
+	fmt.Println("name:", mod.Name, "title:", mod.Title, "owner:", mod.Owner, "summary:", mod.Summary, "download count:", mod.DownloadsCount, "category:", mod.Category, "score:", mod.Score)
+
 }

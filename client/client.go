@@ -80,11 +80,44 @@ func (c Client) List(ctx context.Context, params *request.ListParams) (*response
 	}
 
 	decoder := json.NewDecoder(strings.NewReader(resp))
-	asdf := response.List{}
-	err = decoder.Decode(&asdf)
+	list := response.List{}
+	err = decoder.Decode(&list)
 	if err != nil {
 		return nil, fmt.Errorf("coudn't decode response from list, err: %s", err)
 	}
 
-	return &asdf, nil
+	return &list, nil
+}
+
+// Returns paginates list of mods
+func (c Client) Get(ctx context.Context, name string) (*response.Mod, error) {
+	url := fmt.Sprintf("%s/api/mods/%s", c.config.UrlApi, name)
+	requestCtx, cancel := context.WithTimeout(ctx, c.config.Timeout)
+	resp, err := c.httpClient.Get(requestCtx, url)
+	cancel()
+	if err != nil {
+		return nil, err
+	}
+
+	decoder := json.NewDecoder(strings.NewReader(resp))
+	mod := response.Mod{}
+	err = decoder.Decode(&mod)
+	if err != nil {
+		return nil, fmt.Errorf("coudn't decode response from list, err: %s", err)
+	}
+
+	if mod.Thumbnail != "" {
+		mod.Thumbnail = c.config.UrlAssets + mod.Thumbnail
+	}
+
+	for key, release := range mod.Releases {
+		downloadUrl := release.DownloadUrl
+		if downloadUrl == "" {
+			continue
+		}
+
+		mod.Releases[key].DownloadUrl = c.config.UrlApi + downloadUrl
+	}
+
+	return &mod, nil
 }

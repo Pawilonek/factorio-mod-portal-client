@@ -73,3 +73,28 @@ func TestGettingTheSecondPage(t *testing.T) {
 		t.Fatalf("Expected value %s, but got: %s", expectedName, response.Results[23].Name)
 	}
 }
+
+func TestGettingSimpleModDetails(t *testing.T) {
+	ctx := context.TODO()
+
+	mockedClient := &http.MockedClient{}
+	client := factorio_client.New(nil, mockedClient)
+
+	response, err := client.Get(ctx, "Krastorio2")
+	if err != nil {
+		t.Fatalf("List should not return an error, %s", err)
+	}
+
+	thumbnail := response.Thumbnail
+	expectedThumbnail := "https://assets-mod.factorio.com/assets/0bbd7809fe9151ac3f7cd1c3c604e13d4c8598d9.thumb.png"
+	if thumbnail != expectedThumbnail {
+		t.Fatalf("Expected value %s, but got: %s", expectedThumbnail, thumbnail)
+	}
+
+	selectedDownloadUrl := response.Releases[10].DownloadUrl
+	expectedDownloadUrl := "https://mods.factorio.com/download/Krastorio2/60a2a20930fd180d530dd4b2"
+	if selectedDownloadUrl != expectedDownloadUrl {
+		t.Fatalf("Expected value %s, but got: %s", expectedDownloadUrl, selectedDownloadUrl)
+	}
+
+}
